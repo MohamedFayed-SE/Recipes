@@ -726,7 +726,7 @@ function HanlderError(error) {
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV","sweetalert2":"cRYZg"}],"cRYZg":[function(require,module,exports) {
+},{"sweetalert2":"cRYZg","@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV"}],"cRYZg":[function(require,module,exports) {
 (function(global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() : typeof define === 'function' && define.amd ? define(factory) : (global = global || self, global.Sweetalert2 = factory());
 })(this, function() {

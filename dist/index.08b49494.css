@@ -6,7 +6,10 @@ body
  overflow: hidden;
 }
 
-
+.bg-photo{
+  width: 100%;
+  object-fit: contain;
+}
 
 @-webkit-keyframes load1 {
   0%,
@@ -110,6 +113,24 @@ body
 
   }
 }
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0898b4;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0898b4;
+}
 .search-input{
   width: 75%;
   margin: auto;
@@ -150,7 +171,8 @@ body
 }
 #searchResult{
   max-height: 200px;
-  background-color: #FFB6C1;
+  background-color: white;
+  border-radius: 10px;
   overflow: auto;
   margin-top: 5px;
   position: absolute;
