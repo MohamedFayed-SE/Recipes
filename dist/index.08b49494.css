@@ -212,7 +212,7 @@ body
   
 }
 .recipe-types{
-  background-color: pink;
+  background-color: white;
   position: absolute;
   
     top: 6.5%;
@@ -231,7 +231,11 @@ body
   cursor: pointer;
   color: black;
   font-weight: bold;
+  line-height: 30px;
 
+}
+.types li:hover{
+  background-color: rgb(220,220,220);
 }
 
 
