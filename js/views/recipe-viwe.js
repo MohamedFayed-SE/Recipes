@@ -20,7 +20,7 @@ function activeLink() {
     recipeListSelector.style.width='0';
     detailsContainerSelector.style.marginLeft="0";
    
-}
+};
 
 export function handlerCollapseList(){
     collapseIconSelector.addEventListener('click',()=>{
@@ -39,8 +39,8 @@ export function handlerCollapseList(){
         // detailsContainerSelector.classList.toggle('collapse-margin');
         // console.log("HIiiiiiiiiiii");
 
-    })
-}
+    });
+};
 
 
 
@@ -52,7 +52,7 @@ export function loadAllRecipes(data){
                imageUrl:recipe.image_url,
                publisher:recipe.publisher,
                title:recipe.title.split(' ').slice(0,3).join(' ')+'.....'
-           } 
+           };
       
     });
     recipes.forEach(recipe => {
