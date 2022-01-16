@@ -19,6 +19,7 @@
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "select2": "^4.1.0-rc.0",
-    "sweetalert2": "^11.3.4"
+    "sweetalert2": "^11.3.4",
+    "webpack": "^5.66.0"
   }
 }
