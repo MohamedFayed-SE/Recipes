@@ -567,6 +567,7 @@ var _config = require("./config");
 class Recipe {
     recipes;
     recipesTypes = [
+        'pizza',
         'carrot',
         'broccoli',
         'asparagus',
@@ -3482,6 +3483,7 @@ function loadRecipeById(recipe) {
     recipeDetailsSelector.innerHTML += recipeInfo;
     _comman.clearHtml(ingredientsSelector);
     recipe.ingredients.forEach((ingredient)=>{
+        ingredient.quantity = ingredient.quantity == null ? 0 : ingredient.quantity;
         let html = `
            <div class="col-md-6">
            <ul class="list-style">

@@ -6,7 +6,7 @@ export class Recipe{
 
     recipes;
     recipesTypes=[
-        'carrot','broccoli','asparagus','cauliflower','corn','corn','cucumber','green pepper', 
+        'pizza','carrot','broccoli','asparagus','cauliflower','corn','corn','cucumber','green pepper', 
         'lettuce','mushrooms','onion','potato','pumpkin','red pepper','tomato','beetroot',
         'brussel sprouts','peas','radish','sweet potato','leek','cabbage','celery','chili',
         'garlic','basil','coriander','parsley','rosemary','oregano','cinnamon','saffron','green bean       ',

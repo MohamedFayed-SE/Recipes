@@ -115,6 +115,7 @@ export function loadRecipeById(recipe) {
     recipeDetailsSelector.innerHTML+=recipeInfo;
    Comman.clearHtml(ingredientsSelector);
      recipe.ingredients.forEach(ingredient => {
+        ingredient.quantity= ingredient.quantity==null?0:ingredient.quantity
            let html=`
            <div class="col-md-6">
            <ul class="list-style">
